@@ -1,6 +1,20 @@
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
-bin
-obj
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
 
-# mstest test results
-TestResults
+#Visual Studio files
+[Oo]bj/
+[Bb]in/
+*.suo
+*.user
+/TestResults
+*.vspscc
+*.vssscc
+*.cache
+[Cc]lientBin/
+
+# Office Temp Files
+~$*
+
+#Nuget Packages
+packages/
